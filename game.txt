@@ -1,0 +1,32 @@
+Let's make a game!
+	name: Idle Science
+	author:Eldrimor
+	created:24/05/2023
+	updated:24/05/2023
+	version:0.01
+ 
+Layout
+	*left
+		contains:Resources, leftbottom
+ 
+	*leftbottom
+		contains:Upgrades
+		in:left
+ 
+	*right
+ 
+ 
+Resources
+	*Knowledge
+		name:Knowledge
+		desc:The most powerful tool of our civilization
+ 
+	*Timer
+		name:Time
+ 
+Upgrades 
+	*TEST
+ 
+ 
+Settings
+	background:https://i.imgur.com/xOdJUJg.jpg
